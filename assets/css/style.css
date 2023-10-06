@@ -20,6 +20,8 @@
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
+    box-shadow: 10px 5px 10px black;
+
    
 }
 .detail img {
@@ -61,4 +63,26 @@
 }
 .content {
     padding: 1rem;
+    height: 100vh;
+    margin: 0 auto;
+   
+
 }
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 576px){
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+    
