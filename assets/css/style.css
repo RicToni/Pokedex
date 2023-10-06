@@ -68,6 +68,7 @@
    
 
 }
+/* -------------------------------MEDIA QUERY -------------------------------------------- */
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
