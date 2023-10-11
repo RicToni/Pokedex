@@ -6,9 +6,12 @@
     padding: 0;
     display: grid;
     grid-template-columns:1fr 1fr ;
+    min-width: 400px;
 
 }
 .pokemon {
+    
+    min-width: 100px;
     margin: 0.5rem;
     padding: 1rem;
     background-color: #14A06F;
@@ -69,21 +72,30 @@
 
 }
 /* -------------------------------MEDIA QUERY -------------------------------------------- */
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        margin: 0 auto;
-        height: auto;
-    }
-}
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 565px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr)
     }
+
+    
+    
 }
-@media screen and (min-width: 576px){
+
+@media screen and (min-width: 900px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr)
     }
+
+    
+    
+}
+@media screen and (min-width: 1200px) {
+    .pokemons {
+        grid-template-columns: repeat(5, 1fr)
+    }
+
+    
+    
 }
     
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
