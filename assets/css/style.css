@@ -56,7 +56,7 @@ body {
     
 }
 .type {
-    background-color: #32CD3288; 
+    filter: brightness(1.2);
     padding: .25rem;
     border-radius: .5rem;
     color: white;
@@ -66,12 +66,15 @@ body {
 .name {
     color: white;
     margin: .25rem 0;
+    text-transform: capitalize;
 }
 
 .content {
     padding: 1rem;
     height: 100vh;
-
+}
+.ground {
+    background-color: #E2BF65
 }
 .grass {
     background-color: #14A06F;
@@ -82,17 +85,48 @@ body {
 .water {
     background-color: lightskyblue;
 }
+.fairy { 
+    background-color: #D685AD;
+}
 .electric {
     background-color: #FFE100;
 }
+.dragon {
+background-color:#6F35FC;
+}
 .normal {
     background-color: #F0E78E;
+}
+.rock {
+    background-color: #B6A136;
+}
+.psychic {
+background-color:#F95587';
+}
+.fighting {
+    background-color: #C22E28;
 }
 .poison {
     background-color: #A33EA1;
 }
 .bug {
     background-color: #A0B135;
+}
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.pagination button {
+    background-color: #A44DDA;
+    color: #FFE100;
+    padding: 10px;
+    box-shadow: 10px 5px 10px black;
+    border-radius: 1.1rem;
+ 
 }
 h1 {
     text-align: center;
