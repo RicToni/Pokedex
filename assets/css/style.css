@@ -71,9 +71,28 @@ body {
 .content {
     padding: 1rem;
     height: 100vh;
-   
-   
 
+}
+.grass {
+    background-color: #14A06F;
+}
+.fire {
+    background-color: lightcoral;
+}
+.water {
+    background-color: lightskyblue;
+}
+.electric {
+    background-color: #FFE100;
+}
+.normal {
+    background-color: #F0E78E;
+}
+.poison {
+    background-color: #A33EA1;
+}
+.bug {
+    background-color: #A0B135;
 }
 h1 {
     text-align: center;
