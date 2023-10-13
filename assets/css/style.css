@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background-image: url(../images/Pokemon-Hd-Wallpaper-2013.png);
+    background-image: url(../images/fundo.png);
 }
 .pokemons {
     list-style: none;
@@ -83,6 +83,7 @@ h1 {
     width: 10rem;
     margin: auto;
     color: #FEE387;
+    box-shadow: 10px 5px 10px black;
 }
 /* -------------------------------MEDIA QUERY -------------------------------------------- */
 @media screen and (min-width: 565px) {
